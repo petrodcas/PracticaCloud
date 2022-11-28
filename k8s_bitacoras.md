@@ -58,3 +58,22 @@ Podemos acceder usando el servicio NodePort:
 NodePort: lo que hace es crear un puerto especifico que apunta al servicio. Lo malo q tenemos que apuntar con la IP publica de cada worker.
 
 $kubectl get pods -o wide
+
+kubectl log -n ingress-nginx ingresspod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
